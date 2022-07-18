@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "348795483342",
+    "project_id": "njitcarpoolapp",
+    "storage_bucket": "njitcarpoolapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:348795483342:android:cfc956ea4bfc6d9b8ccc9f",
+        "android_client_info": {
+          "package_name": "com.example.njitcarpoolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "348795483342-66v6a7c8o7c72gvoh8qrp92u9h4kdvnl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAahFxMbN82ae5CFMNDKrMFbeRVblQ7JvQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "348795483342-66v6a7c8o7c72gvoh8qrp92u9h4kdvnl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
