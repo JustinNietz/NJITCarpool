@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_njitcarpool_splash.xml" value="0.1105" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.17956744450768355" />
+        <entry key="app/src/main/res/layout/splash_activity.xml" value="0.27066650390625" />
       </map>
     </option>
   </component>
