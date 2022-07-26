@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/ic_baseline_local_phone_24.xml" value="0.202" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.172" />
         <entry key="app/src/main/res/drawable/ic_njitcarpool_splash.xml" value="0.1105" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.17956744450768355" />
-        <entry key="app/src/main/res/layout/driverauth_activity.xml" value="0.125" />
+        <entry key="app/src/main/res/layout/driverauth_activity.xml" value="0.17674713134765627" />
         <entry key="app/src/main/res/layout/splash_activity.xml" value="0.27066650390625" />
       </map>
     </option>
