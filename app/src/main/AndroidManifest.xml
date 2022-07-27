@@ -14,10 +14,6 @@
         android:theme="@style/Theme.NJITCarpoolApp"
         tools:targetApi="31">
         <activity
-            android:name=".DriverLoginActivity"
-            android:exported="false" />
-        <!-- Splash Screen start -->
-        <activity
             android:name=".SplashScreenActivity"
             android:exported="true"
             android:theme="@style/Theme.SplashTheme">
@@ -26,11 +22,21 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity> <!-- Driver Auth start -->
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.DriverAuthTheme"></activity>
+            android:theme="@style/Theme.DriverAuthTheme" />
+        <activity
+            android:name=".CustomerLoginActivity"
+            android:exported="true" />
+        <activity
+            android:name=".MapActivity"
+            android:exported="true" />
+        <activity
+            android:name=".DriverLoginActivity"
+            android:exported="true" />
     </application>
 
 </manifest>

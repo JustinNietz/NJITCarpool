@@ -14,17 +14,22 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.main_activity);
 
-        nDriver = (Button) findViewById(R.id.driver);
-        nCustomer = (Button) findViewById(R.id.customer);
+        nDriver = findViewById(R.id.driver);
+        nCustomer = findViewById(R.id.customer);
 
-        nDriver.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, DriverLoginActivity.class);
-                startActivity(intent);
-                finish();
-                return;
-            }
+        nDriver.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, DriverLoginActivity.class);
+            startActivity(intent);
+            finish();
+            return;
+        });
+
+
+        nCustomer.setOnClickListener(v -> {
+            Intent intent = new Intent(MainActivity.this, CustomerLoginActivity.class);
+            startActivity(intent);
+            finish();
+            return;
         });
     }
 
